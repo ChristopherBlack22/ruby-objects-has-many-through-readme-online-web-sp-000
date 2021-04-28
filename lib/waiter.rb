@@ -1,3 +1,5 @@
+# ./lib/customer.rb
+# ./lib/meal.rb
 require "pry"
 
 class Waiter
