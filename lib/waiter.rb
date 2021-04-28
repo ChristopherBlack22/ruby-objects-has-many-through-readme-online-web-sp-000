@@ -1,5 +1,7 @@
-#require_relative './lib/customer.rb'
-#require_relative './lib/meal.rb'
+require_relative './lib/customer.rb'
+require_relative './lib/meal.rb'
+
+require "pry"
 
 class Waiter
   attr_accessor :name, :yrs_experience 
