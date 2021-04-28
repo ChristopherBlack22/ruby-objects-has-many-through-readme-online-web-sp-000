@@ -36,11 +36,20 @@ class Waiter
   end 
   
   def most_frequent_customer
-    waiters_customers = meals.collect {|meal| meal.customer}
+        waiters_customers = meals.collect {|meal| meal.customer}
     customers_hash = {}
     waiters_customers.each do |customer|
       customers_hash[customer] += 1
     end 
+    value_array = customers_hash.collect {|k,v| v}.sort{|a,b|b<=>a}
+    most_frequent = nil
+    customers_hash.each do |customer, meals|
+      if meals == value_array[0]
+        most_frequent = customer
+      end
+    end 
+    most_frequent
   end 
   
 end
+binding.pry
