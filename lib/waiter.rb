@@ -47,5 +47,5 @@ class Waiter
     end 
     most_frequent
   end 
-binding.pry 
 end
+binding.pry 
