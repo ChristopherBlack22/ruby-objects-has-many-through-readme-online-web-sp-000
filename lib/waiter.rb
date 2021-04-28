@@ -31,9 +31,11 @@ class Waiter
   end 
   
   def most_frequent_customer
-    waiters_customers = meals.each do |meal|
+    #go through the waiters meals and gather all their waiters_customers
+    #go through each customers meals and select those where they had this waiter 
+    waiters_customers = meals.collect do |meal|
       meal.customer
     end 
-    waiter_customer.
+    waiters_customers.each 
   end 
 end
