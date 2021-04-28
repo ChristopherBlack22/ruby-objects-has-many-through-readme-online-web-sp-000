@@ -40,4 +40,5 @@ class Waiter
       customers_hash[customer] += 1
     end 
   end 
+  
 end
