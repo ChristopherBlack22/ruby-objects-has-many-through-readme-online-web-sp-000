@@ -1,5 +1,6 @@
-require ./lib/customer.rb
- ./lib/meal.rb
+require_relative './lib/customer.rb'
+require_relative './lib/meal.rb'
+require_relative './lib/waiter.rb'
 require "pry"
 
 class Waiter
