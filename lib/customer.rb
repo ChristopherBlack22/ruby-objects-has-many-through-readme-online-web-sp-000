@@ -1,5 +1,5 @@
-require_relative './lib/meal.rb'
-require_relative './lib/waiter.rb'
+#require_relative './lib/meal.rb'
+#require_relative './lib/waiter.rb'
 
 class Customer
   attr_accessor :name, :age 
