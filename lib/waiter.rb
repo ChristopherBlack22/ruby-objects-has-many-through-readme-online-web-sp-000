@@ -30,4 +30,10 @@ class Waiter
     best_tipped_meal.customer
   end 
   
+  def most_frequent_customer
+    waiters_customers = meals.each do |meal|
+      meal.customer
+    end 
+    waiter_customer.
+  end 
 end
