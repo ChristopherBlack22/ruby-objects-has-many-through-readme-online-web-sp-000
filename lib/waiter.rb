@@ -1,6 +1,3 @@
-require_relative './lib/customer.rb'
-require_relative './lib/meal.rb'
-require_relative './lib/waiter.rb'
 require "pry"
 
 class Waiter
@@ -51,4 +48,4 @@ class Waiter
     most_frequent
   end 
 end
-binding.pry 
+#binding.pry 
